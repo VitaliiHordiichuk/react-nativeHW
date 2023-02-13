@@ -55,7 +55,7 @@ export default function RegistrationScreen() {
           <View style={st.container} onLayout={onLayoutRootView}>
             <ImageBackground
               style={st.bg}
-              source={require("../../../assets/img/photoBG.jpg")}
+              source={require("../../../../assets/img/photoBG.jpg")}
             >
               <View
                 style={[st.inner, { paddingBottom: isShowKeyboard ? 32 : 78 }]}

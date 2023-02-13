@@ -9,10 +9,10 @@ export const useFont = () => {
     async function prepare() {
       try {
         await Font.loadAsync({
-          "Roboto-Medium": require("../assets/fonts/Roboto-Medium.ttf"),
-          "Roboto-Bold": require("../assets/fonts/Roboto-Bold.ttf"),
-          "Roboto-Regular": require("../assets/fonts/Roboto-Regular.ttf"),
-          "Inter-Medium": require("../assets/fonts/Inter-Medium.ttf"),
+          "Roboto-Medium": require("../../assets/fonts/Roboto-Medium.ttf"),
+          "Roboto-Bold": require("../../assets/fonts/Roboto-Bold.ttf"),
+          "Roboto-Regular": require("../../assets/fonts/Roboto-Regular.ttf"),
+          "Inter-Medium": require("../../assets/fonts/Inter-Medium.ttf"),
         });
       } catch (e) {
         console.warn(e);
